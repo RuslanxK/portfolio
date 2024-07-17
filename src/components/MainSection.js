@@ -20,13 +20,22 @@ const MainSection = ({executeScroll}) => {
   return (
     <section className='main-text'>
 
+
+      <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
+
+      <div>
       <span className='first-text'>Hi, my name is Ruslan</span>
       <h1 className={changeTextStyleFirst ? "apply-text-effect" : null }>Full Stack</h1>
       <h1 className={changeTextStyleSecond ? "apply-text-effect" : null} onMouseEnter={handleEnterChange} onMouseLeave={handleLeaveChange}>Developer</h1>
-      <div className='image-div'>
-      <img src='./ruslan.png' alt='profile'/>
-      
       </div>
+      <div>
+      
+      <img src='./ruslan.jpg' width="400px" height="400px" alt='profile' style={{objectFit: "cover"}}/>
+
+      </div>
+
+      </div>
+      
       <span className='last-text'>Based in Tel Aviv, Israel</span>
       <div className='companies-logos'>
         <img id='xrhealth' src='./xrhealth.png' alt='xrhealth' width="90px" onClick={() => window.open("https://www.xr.health/")}/>
