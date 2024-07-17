@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar'
+import PhoneCall from './components/PhoneCall'
+import MainSection from './components/MainSection'
+import ProjectsSection from './components/ProjectsSection'
+import { useRef } from 'react'
 
-function App() {
+const App = () => {
+
+  const myRef = useRef(null)
+
+  const executeScroll = () => myRef.current.scrollIntoView()   
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className='main'>
+    
+      <NavBar executeScroll={executeScroll} />
+      <MainSection executeScroll={executeScroll} />
+    
+       <section ref={myRef} className='projects'>
+
+        <h2 className='projects-headline'>Projects</h2>
+        <ProjectsSection />
+       </section>
+
+       <PhoneCall />
+       
+      </div>
+  )
 }
 
-export default App;
+export default App
