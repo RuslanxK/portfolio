@@ -8,14 +8,14 @@ const ProjectsSection = () => {
 
         <div className='box-main' onClick={() => window.open("https://bags-app-gilt.vercel.app/")}>
         <div className='project-div'>
-        <h2 className='project-headline'>Light Pack - Planner App  </h2>
+        <h2 className='project-headline'>Light Pack Planner  </h2>
         <a href='https://github.com/RuslanxK/light-pack-planner-next/tree/master' target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><i class="fa-brands fa-github"></i>Source code</a>
 
         </div>
         <div className='box'>
-        <img src='./lighter-pack-planner.png' alt='lighter-pack-planner'/>
-        <img src='./lighter-pack-planner-2.png' alt='lighter-pack-planner'/> 
-        <img src='./lighter-pack-planner-3.png' alt='lighter-pack-planner'/>
+        <img src='./lighter-pack-planner.png' alt='light-pack-planner'/>
+        <img src='./lighter-pack-planner-2.png' alt='light-pack-planner'/> 
+        <img src='./lighter-pack-planner-3.png' alt='light-pack-planner'/>
         </div>
         </div>
 
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
         
        <div className='box-main'>
        <div className='project-div'>
-       <h2 className='project-headline'> Stellar staff App</h2>
+       <h2 className='project-headline'> Stellar staff</h2>
        <a href='https://github.com/RuslanxK/StellarStaff' target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><i class="fa-brands fa-github"></i>Source code</a>
        </div>
        <div className='box'>
@@ -37,7 +37,7 @@ const ProjectsSection = () => {
 
        <div className='box-main' onClick={() => window.open("https://compresso-5zgx.onrender.com/")}>
        <div className='project-div'>
-       <h2 className='project-headline'>Compresso.io App</h2>
+       <h2 className='project-headline'>Compresso.io</h2>
        <a href='https://github.com/RuslanxK/compresso' target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><i class="fa-brands fa-github"></i>Source code</a>
 
        </div>
@@ -66,7 +66,7 @@ const ProjectsSection = () => {
        
        <div className='box-main' onClick={() => window.open("https://movies-client-vfw8.onrender.com")}>
       <div className='project-div'>
-       <h2 className='project-headline'>Movies App </h2>
+       <h2 className='project-headline'>Movies Online </h2>
        <a href='https://github.com/RuslanxK/MoviesProject' target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><i class="fa-brands fa-github"></i>Source code</a>
        </div>
        <div className='box'>
@@ -80,7 +80,7 @@ const ProjectsSection = () => {
 
        <div className='box-main' onClick={() => window.open("https://maayanot-ziv.com/")}>
       <div className='project-div'>
-       <h2 className='project-headline'>maayanot-ziv.com - Water Corporation - Wordpress Website</h2>
+       <h2 className='project-headline'>Maayanot Ziv Water Corporation - WP</h2>
        </div>
        <div className='box'>
        <img src='./maayanot-ziv.png' alt='maayanot-ziv'/>
@@ -92,7 +92,7 @@ const ProjectsSection = () => {
 
        <div className='box-main' onClick={() => window.open("https://milouoff.co.il/")}>
       <div className='project-div'>
-       <h2 className='project-headline'>milouoff.co.il - Wordpress Website</h2>
+       <h2 className='project-headline'>Milouoff - WP</h2>
        </div>
        <div className='box'>
        <img src='./milouoff.png' alt='milouoff'/>
@@ -104,7 +104,7 @@ const ProjectsSection = () => {
 
        <div className='box-main' onClick={() => window.open("https://www.xr.health/")}>
       <div className='project-div'>
-       <h2 className='project-headline'>XRHealth - Wordpress Website</h2>
+       <h2 className='project-headline'>XRHealth - WP</h2>
        </div>
        <div className='box'>
        <img src='./xrhealth-1.png' alt='xrhealth'/>
