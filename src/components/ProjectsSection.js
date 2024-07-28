@@ -13,9 +13,9 @@ const ProjectsSection = () => {
 
         </div>
         <div className='box'>
-        <img src='./lighter-pack-planner.png' alt='light-pack-planner'/>
-        <img src='./lighter-pack-planner-2.png' alt='light-pack-planner'/> 
-        <img src='./lighter-pack-planner-3.png' alt='light-pack-planner'/>
+        <img src='./lpp-1.png' alt='light-pack-planner'/>
+        <img src='./lpp-2.png' alt='light-pack-planner'/> 
+        <img src='./lpp-3.png'  alt='light-pack-planner'/>
         </div>
         </div>
 
