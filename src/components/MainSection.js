@@ -21,7 +21,7 @@ const MainSection = ({executeScroll}) => {
     <section className='main-text'>
 
 
-       <img src='./profile.jpeg' width="400px" height="400px" alt='profile' style={{objectFit: "cover", marginBottom: "40px", marginTop: "40px", borderRadius: "100px"}}/>
+       <img src='./profile.jpg' width="300px" height="300px" alt='profile' style={{objectFit: "cover", marginBottom: "40px", marginTop: "40px", borderRadius: "100%"}}/>
 
       <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
         
@@ -39,7 +39,7 @@ const MainSection = ({executeScroll}) => {
 
       </div>
       
-      <span className='last-text'>Based in Tel Aviv, Israel</span>
+     
       <div className='companies-logos'>
         <img id='xrhealth' src='./xrhealth.png' alt='xrhealth' width="90px" onClick={() => window.open("https://www.xr.health/")}/>
         <img src='./click-digital.png' alt='click-digital' width="75px" onClick={() => window.open("https://click-digital.io/")}/>
