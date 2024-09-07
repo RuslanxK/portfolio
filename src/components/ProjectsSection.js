@@ -13,7 +13,7 @@ const ProjectsSection = () => {
 
         </div>
         <div className='box'>
-        <img src='./hikepack-1.png' alt='light-pack-planner'/>
+        <img src='./hikepack-6.png' alt='light-pack-planner'/>
         <img src='./hikepack-2.png' alt='light-pack-planner'/> 
         <img src='./hikepack-3.png'  alt='light-pack-planner'/>
         <img src='./hikepack-4.png'  alt='light-pack-planner'/>
