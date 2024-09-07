@@ -8,14 +8,16 @@ const ProjectsSection = () => {
 
         <div className='box-main' onClick={() => window.open("https://bags-app-gilt.vercel.app/")}>
         <div className='project-div'>
-        <h2 className='project-headline'>Light Pack Planner  </h2>
-        <a href='https://github.com/RuslanxK/light-pack-planner-next/tree/master' target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><i class="fa-brands fa-github"></i>Source code</a>
+        <h2 className='project-headline'>Hikepack.io  </h2>
+        <a href='https://github.com/RuslanxK/hikepack.io' target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><i class="fa-brands fa-github"></i>Source code</a>
 
         </div>
         <div className='box'>
-        <img src='./lpp-1.png' alt='light-pack-planner'/>
-        <img src='./lpp-2.png' alt='light-pack-planner'/> 
-        <img src='./lpp-3.png'  alt='light-pack-planner'/>
+        <img src='./hikepack-1.png' alt='light-pack-planner'/>
+        <img src='./hikepack-2.png' alt='light-pack-planner'/> 
+        <img src='./hikepack-3.png'  alt='light-pack-planner'/>
+        <img src='./hikepack-4.png'  alt='light-pack-planner'/>
+        <img src='./hikepack-5.png'  alt='light-pack-planner'/>
         </div>
         </div>
 
