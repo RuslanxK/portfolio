@@ -6,7 +6,7 @@ const ProjectsSection = () => {
   return (
     <div className='project-boxes'>
 
-        <div className='box-main' onClick={() => window.open("https://bags-app-gilt.vercel.app/")}>
+        <div className='box-main' onClick={() => window.open("https://www.hikepack.io/")}>
         <div className='project-div'>
         <h2 className='project-headline'>Hikepack.io  </h2>
         <a href='https://github.com/RuslanxK/hikepack.io' target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}><i class="fa-brands fa-github"></i>Source code</a>
