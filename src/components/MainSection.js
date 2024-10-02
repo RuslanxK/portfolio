@@ -21,7 +21,7 @@ const MainSection = ({executeScroll}) => {
     <section className='main-text'>
 
 
-       <img src='./profile.jpg' width="300px" height="300px" alt='profile' style={{objectFit: "cover", marginBottom: "40px", marginTop: "40px", borderRadius: "100%"}}/>
+       <img src='./profile-ruslan.jpeg' width="300px" height="300px" alt='profile' style={{objectFit: "cover", marginBottom: "40px", marginTop: "40px", borderRadius: "100%"}}/>
 
       <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
         
